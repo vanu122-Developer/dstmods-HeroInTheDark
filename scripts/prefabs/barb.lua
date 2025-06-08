@@ -14,9 +14,6 @@ TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT.BARB = {
 local assets = {
         Asset("SCRIPT", "scripts/prefabs/player_common.lua"),
 
-		-- Don't forget to include your character's custom assets!
-        Asset( "ANIM", "anim/barb.zip" ),
-
 }
 
 local prefabs = {
@@ -66,7 +63,7 @@ local master_postinit = function(inst)
     inst.starting_inventory = start_inv[TheNet:GetServerGameMode()] or start_inv.default
 	
 	-- choose which sounds this character will play
-	inst.soundsname = "barb" --fix 
+	inst.soundsname = "barb"
 	
 	-- Uncomment if "wathgrithr"(Wigfrid) or "webber" voice is used
     --inst.talker_path_override = "dontstarve_DLC001/characters/"

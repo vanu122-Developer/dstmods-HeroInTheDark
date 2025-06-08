@@ -7,7 +7,7 @@ local assets =
 local skins =
 {
 	normal_skin = "darkknight",
-	ghost_skin = "ghost_DarkKnight_build",
+	ghost_skin = "ghost_darkknight_build",
 }
 
 return CreatePrefabSkin("darkknight_none",

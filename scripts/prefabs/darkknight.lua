@@ -11,7 +11,7 @@ TUNING.DARKKNIGHT_SANITY = 200
 
 --- Custom starting inventory
 TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT.DARKKNIGHT = {
-
+	"dksword"
 }
 
 local start_inv = {}

@@ -8,7 +8,8 @@ PrefabFiles = {
     "wizard_none",
     
     --Weapon
-    "dksword"
+    "dksword",
+    "holysword"
 }
 
 Assets = {
@@ -164,6 +165,10 @@ STRINGS.CHARACTER_SURVIVABILITY.wizard = "Slim"
 --Dark Sword
 STRINGS.NAMES.DKSWORD = "Dark Sword" --Display name
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.DKSWORD = "This blade holds an eerie power." -- Inspection quote
+
+--Holy Sword
+STRINGS.NAMES.HOLYSWORD = "Holy Sword" --Display name
+STRINGS.CHARACTERS.GENERIC.DESCRIBE.HOLYSWORD = "." -- Inspection quote !!! 
 
 -- Custom speech strings
 STRINGS.CHARACTERS.DARKKNIGHT = require "speech_darkknight"

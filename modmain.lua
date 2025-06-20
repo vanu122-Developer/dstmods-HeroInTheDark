@@ -1,10 +1,14 @@
 PrefabFiles = {
+    --Characters
     "darkknight",
     "darkknight_none",
 	"barb",
 	"barb_none",
     "wizard",
     "wizard_none",
+    
+    --Weapon
+    "dksword"
 }
 
 Assets = {
@@ -155,6 +159,11 @@ STRINGS.CHARACTER_NAMES.wizard = "Wizard"
 STRINGS.CHARACTER_DESCRIPTIONS.wizard = "*1. Has trouble using most armors and weapons\n*2. Better at using wands and books\n*3. Is researching many types of magic into his book"
 STRINGS.CHARACTER_QUOTES.wizard = "\"The only sovereign you can allow to rule you is reason.\""
 STRINGS.CHARACTER_SURVIVABILITY.wizard = "Slim"
+
+--Weapon names
+--Dark Sword
+STRINGS.NAMES.DKSWORD = "Dark Sword" --Display name
+STRINGS.CHARACTERS.GENERIC.DESCRIBE.DKSWORD = "This blade holds an eerie power." -- Inspection quote
 
 -- Custom speech strings
 STRINGS.CHARACTERS.DARKKNIGHT = require "speech_darkknight"

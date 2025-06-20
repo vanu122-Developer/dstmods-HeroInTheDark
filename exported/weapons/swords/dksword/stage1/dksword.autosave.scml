@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="ground.png" width="170" height="303" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="dksword">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ground">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-80.840909" y="223.484848" angle="0" scale_x="0.719925" scale_y="0.79472"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
